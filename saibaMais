@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel = "stylesheet" href ="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+	 crossorigin="anonymous">
+
+	<title>Saiba Mais</title>
+</head>
+
+
+
+
+
+
+<body>
+  
+    <!--Aqui começa o header-->
+	 <header class = "container header">
+
+      <div class = "row">
+
+        <div class = "col-12 header_area">
+
+          <div class = "row">
+            <div class = "col-2">
+              <img src = "/imagens/logotipo.png" class = "logo">
+            </div>
+
+            <div class = "col-10 menu_area">
+
+                  <nav class="nav nav-pills flex-column flex-sm-row">
+                    <a class="flex-sm-fill text-sm-center nav-link" href="cronometro.html">Cronômetro</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="contador.html">Contador de gastos</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="contato.html">Contato</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="index.html">Página Principal</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="saibaMais.html">Saiba mais</a>
+                  </nav>  
+            </div>
+
+           
+          </div>
+
+        </div>
+
+      </div>
+
+    </header>
+    <!-- fim do header ! -->
+
+
+
+
+
+
+
+
+    <!--Aqui começa o main-->
+	<main>
+        <div class = "row">
+          <div class="col-12 header_area">
+            <p>Jogar games é algo cada vez mais em alta e até virou profissão desejada por muitos —devido ao sucesso dos eSports. Mas, recentemente também virou doença. Pois é, este ano, a OMS (Organização Mundial de Saúde) referendou que "vício em games" entrará na sua classificação internacional de doenças, como um transtorno mental, a partir de 1º de janeiro de 2022.
+
+            <p>A decisão ligou um sinal de alerta para familiares (e médicos) de jovens e adultos que estão o tempo todo com o "controle na mão". Mas o que define que uma pessoa é realmente viciada em games? E como considerar isso uma doença pode ajudar ou atrapalhar esse indivíduo?</p>
+            <h2>O que caracteriza o vício</h2>
+            <p>Em primeiro lugar, precisamos entender em que casos ocorrem o transtorno. De acordo com a OMS, uma pessoa é considerada viciada em games ao apresentar:</p>
+
+            <ul>
+            <li>Falta de controle sobre o jogo (seja frequência, seja intensidade, seja duração)</li>
+            <li>Prioriza sempre os jogos em relação a outros interesses da vida e atividades diárias</li>
+            <li>Continuação ou até escalada do ato de jogar, apesar de consequências negativas</li>
+            <li>O padrão de comportamento é de gravidade suficiente para resultar em prejuízo significativo em áreas pessoais, familiares, sociais, educacionais, ocupacionais ou outras áreas importantes de funcionamento</li>
+            </ul>
+
+            <h2>Como a mudança vai ajudar quem tem o problema</h2>
+            <p> A intenção da OMS ao classificar o vício em games como doença é estabelecer critérios para que médicos e pacientes consigam decidir a melhor forma de tratar a condição. Na China e Coreia do Sul, por exemplo, há diversas clínicas para viciados em games. Agora, elas terão de seguir uma base normativa de diagnóstico e tratamento, fazendo com que isso deixe de ser uma "terra de ninguém".</p>
+            <p>Os defensores da introdução do vício em jogos como doença se baseiam em fatos como a atração que o jogo causa, os prejuízos nas relações sociais e os efeitos fisiológicos que ele gera, como a liberação de dopamina no cérebro (algo que ocorre também ao usar drogas) e até dados científicos sobre queda na bainha de mielina (substância presente em neurônios) por pessoas que jogam muito.</p>
+
+            <h2>Nem todos que passam horas jogando são viciados. Saiba diferenciar a pessoa que tem compulsão pelo game da que tem controle sobre ele.</h2>
+            <p></p>
+            <h5>Pode ser vício</h5>
+            <p>Uma das principais características do vício é que ele prejudica as relações sociais e a vida cotidiana da pessoa, que, por não conseguir parar de jogar, abandona atividades importantes. Nabuco relata que recebeu em sua clínica um jovem levado a contragosto pela mãe. O garoto tinha largado a escola há dois anos por causa do videogame, chegou a passar 55 horas ininterruptas jogando e fazia até necessidades ali no quarto, na frente da tela, em vez de ir ao banheiro.</p>
+
+            <h5>Pode não ser vício</h5>
+            <p>Em outro exemplo, um adolescente levado pela família à clínica de Nabuco chegava da faculdade e passava a tarde jogando. Suas notas continuaram boas e ele dizia jogar porque seus amigos também jogavam. "Entramos numa área pantanosa. Mas, se a pessoa continua cumprindo bem suas atividades, não temos elementos para dizer que o hábito é prejudicial e se caracteriza como vício, pois o indivíduo tem controle sobre o jogo", diz o psiquiatra Cristiano Nabuco, coordenador do grupo de dependências de tecnologia do Instituto de Psicologia da USP (Universidade de São Paulo).</p>
+
+            <h2>Depressão: o vício em games pode ser causado por outros problemas</h2>
+
+            <p>O debate sobre vício em games é ampliado quando se tenta identificar se a condição trata-se de uma doença ou um sintoma de algo maior —como depressão ou alienamento da sociedade. Cristiano Nabuco acredita que uma coisa não impede a outra.</p>
+
+            <p>"No caso de dependentes de videogames, grande parte tem depressão. Quando você analisa o paciente talvez ele tenha problemas familiares ou vulnerabilidades. O vício em jogos faz parte de um quadro maior. Sabemos que a depressão é presente, mas não é determinante", alega Nabuco.</p>
+
+            <p>Nesse caso, o ato de jogar poderia ser comparado a problemas enfrentados por quem tem alcoolismo —em que a bebida tende a ser um "escape" e não o verdadeiro problema. Claro que não podemos nos esquecer que o abuso de álcool comprovadamente causa mais transtornos diretos ao organismo do que jogar videogame, que ainda tem seus impactos estudados.</p>
+
+
+
+
+
+
+            
+          </div>
+        </div>
+
+	</main>
+	<!--Aqui termina o main-->
+
+
+
+
+
+
+
+
+    
+
+	<!--Aqui começa o footer-->
+	<footer>
+        <main class=" container-fluid footer">
+        <div class="row">
+            <div class="col-10 footer_area">
+                Copyright 2021 - Diciplina de Desenvolvimento de Interfaces Web - ICEI PUC MINAS
+            </div>
+            <div class="col-2">
+            <img src = "/imagens/logotipo.png" class = "logo_footer"> 
+            </div>
+            
+        </div>
+    
+	</footer>
+	<!--Aqui termina o footer-->
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+	 crossorigin="anonymous">
+	</script>
+
+</body>
+
+</html>
