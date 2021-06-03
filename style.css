@@ -3,9 +3,14 @@ header{
   text-align: center;
 }
 
+
 .logo{
   width: 150px;
   height:150px;
+  position: absolute;
+  top: 0px;  
+  bottom: 0px;
+  left: 0px;
 }
 
 .logo_footer{
@@ -27,27 +32,36 @@ main{
     background-color: rgba(190, 190, 190, 0.418)
 }
 
-.footer {
-    position:absolute;
-    bottom:100;
-    width:100%;
-    height:10%;
-    background-color: gray;
+.footer{
+    background-color: lightgray;
+    margin-top: 0px;
+    margin: center;
     text-align: center;
+    
 }
-
-
-/*footer{
-    background-color: gray;
-    height: 40px;
-}*/
 
 .nav-link{
-  color: darkgray;
+  color: black;
 }
 
-.logo{
-  padding-top: 20px;
+.autores{
+  list-style-type: none;
 }
+
+#imgPossivel{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#possibilidades{
+  text-align: center;
+}
+
+#quantoGastou{
+  text-align: center;
+}
+
 
 
