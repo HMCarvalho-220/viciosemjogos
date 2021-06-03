@@ -10,14 +10,9 @@
 	 crossorigin="anonymous">
 
 	<title>Contador</title>
-  
-  <script> let contador = 0; </script>
+
   
 </head>
-
-
-
-
 
 
 <body>
@@ -34,6 +29,7 @@
               <img src = "/imagens/logotipo.png" class = "logo">
             </div>
 
+            <div class = "menu_top">
             <div class = "col-10 menu_area">
 
                   <nav class="nav nav-pills flex-column flex-sm-row">
@@ -42,9 +38,10 @@
                     <a class="flex-sm-fill text-sm-center nav-link" href="contato.html">Contato</a>
                     <a class="flex-sm-fill text-sm-center nav-link" href="index.html">Página Principal</a>
                     <a class="flex-sm-fill text-sm-center nav-link" href="saibaMais.html">Saiba mais</a>
+                    <a class="flex-sm-fill text-sm-center nav-link"   href="login.html">Cadastro</a>
                   </nav>  
             </div>
-
+            </div>
            
           </div>
 
@@ -63,13 +60,16 @@
 	<main>
         <div class = "row">
           <div class="col-12 header_area">
-            <form action = "info.php" method = "POST">
-              <label for = "contador">Digite quato você gastou: </label>
-              <input type = "number" id = "contador" name = "contador"/>
-              <button type = "submit">Enviar</button>
+              <label>Digite quato você gastou, aproximadamente, em jogos online: </label>
+              <input type = "number" id = "valor">
+              <input type = "submit" onclick = "capturar()" = value="Enviar">
+              <p id ="valorDigitado"></p>
+              <p id = "quantoGastou"></p>
+              <p id ="possibilidades"></p>
+              <p id ="imgPossivel"></p>
           </div>
         </div>
-
+    <script src="cont.js"></script>
 	</main>
 	<!--Aqui termina o main-->
 
@@ -85,7 +85,7 @@
             <div class="col-10 footer_area">
                 Copyright 2021 - Diciplina de Desenvolvimento de Interfaces Web - ICEI PUC MINAS
             </div>
-            <div class="col-2">
+            <div class="col-1">
             <img src = "/imagens/logotipo.png" class = "logo_footer"> 
             </div>
             
