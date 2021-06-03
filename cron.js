@@ -1,24 +1,58 @@
-"use strict"
-var hh = 0;
-var mm = 0;
-var ss= 0;
+var display = document.getElementById('display')
 
-var tempo = 1000;
-var cron
+var horas = document.getElementById('horas')
+var minutos = document.getElementById('minutos')
+var segundos = document.getElementById('segundos')
 
-function start()  {
-  cron = setInterval(() => { timer (); }, tempo);
+var display = document.getElementById('display')
+
+var minutos = document.getElementById('minutos')
+var segundos = document.getElementById('segundos')
+
+var comecar = document.getElementById('comecar')
+var parar = document.getElementById('parar')
+
+var minutoAtual;
+var segundoAtual;
+
+var interval
+
+
+for(var i = 0; i<=180; i++){
+    minutos.innerHTML+='<option value='+i+'>'+i+'</option>';
 }
 
-function pause()  {
-
-
+for(var i = 0; i<=60; i++){
+    segundos.innerHTML+='<option value='+i+'>'+i+'</option>';
 }
 
-function stop() {
 
-}
 
-function timer()  {
-document.getElementById('timer_decimo').innerText = '01';
-} 
+comecar.addEventListener('click',function(){
+    minutoAtual = minutos.value
+    segundoAtual = segundos.value
+    display.childNodes[1].innerHTML = minutoAtual+": "+segundoAtual
+
+    interval = setInterval(function(){
+        segundoAtual--;
+
+        if(segundoAtual<=0){
+            if(minutoAtual>0){
+                minutoAtual--
+                segundoAtual=59
+            }else{
+                document.getElementById('sound').play();
+                alert("Acabou o Tempo!")
+                
+                clearInterval(interval)
+            }
+        }
+
+        display.childNodes[1].innerHTML = minutoAtual+": "+segundoAtual
+    }, 1000)
+})
+
+
+parar.addEventListener('click',function(){
+    clearInterval(interval)
+})
